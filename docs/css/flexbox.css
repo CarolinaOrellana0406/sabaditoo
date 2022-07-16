@@ -1,0 +1,91 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+div img{
+width: 30%;
+border: 5px dotted brown;
+border-radius: 55%;
+margin: 15px;
+
+}
+::selection{
+    color: rgb(234, 198, 150);
+    background-color: rgb(159, 212, 52);
+}
+header nav ul li a{
+    cursor:crosshair;
+}
+.caja{ 
+   width: 500px;
+    border: 7px solid rgb(69, 134, 67);
+     display: flex;
+     gap: 15px;
+}
+.flexbox{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 12px;
+}
+p{
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+header{
+background-color: rgb(109, 98, 120);
+display: flex;
+justify-content: space-around;
+}
+main{
+    background-color: bisque;
+    display: flex;
+}
+.menu{
+    background-color: rgb(84, 171, 158);
+    flex: 20%;
+    padding: 20px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+display: block;
+text-decoration: none;
+margin-bottom:5px ;
+background-color: lightskyblue;
+padding: 5px;
+border-bottom:  5px solid black;
+}
+.contenido{
+    background-color: khaki;
+    flex: 60%;
+}
+footer{
+    border-radius: 20px;
+    background-color: rgb(222, 153, 62);
+    display: flex;
+    justify-content: space-around;
+    }
+    blockquote{
+        width: 5%;
+    }
+    iframe{
+        width: 300px;
+    }
+    button{
+        background-color: rgb(186, 84, 84);
+        border: 20px;
+        font-family: cursive;
+     border-radius: 30px;
+    }
+    form{
+        background-color: rgb(65, 203, 150);
+      border: 20px solid green;
+        border-style:dashed  ;
+
+        
+    }
+
+    

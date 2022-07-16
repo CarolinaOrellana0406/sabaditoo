@@ -1,0 +1,74 @@
+/*variables*/
+:root{
+    --color: rgb(221, 120, 120);
+    --fuente:'Times New Roman', Times, serif ;
+    }
+    /*selector universal*/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        }
+    ::-webkit-scrollbar{
+        background-color: red;
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: coral;
+    
+    }
+    html{
+        background-image: url("../img/imagen1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        width: 905;
+    }
+    body{
+        background-color: aliceblue;
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: 102px 56px 135px 0px rgba(184,34,34,0.75);
+    -webkit-box-shadow: 102px 56px 135px 0px rgba(184,34,34,0.75);
+    -moz-box-shadow: 102px 56px 135px 0px rgba(184,34,34,0.75);
+    border: 18px double green;
+    }
+    .encabezado{
+        background-color: khaki;
+    }
+    article{
+        text-align: justify;
+        padding: 20px;
+        border: 5px solid rgb(102, 196, 87);
+        margin: 30px;
+        box-sizing: border-box;
+    }
+    nav{
+        display: inline-block;
+        text-align: center;
+        background-color: aquamarine;
+        width: 100%;
+    
+    }
+    nav ul{
+        list-style: none;
+        
+    }
+    nav ul li{
+        position: relative;
+        float: left;
+    }
+    
+    div{
+        text-align: center;
+    }
+    div img{
+    width: 50px;
+    }
+    @media screen  and (max-width: 600px){body{
+        background-color: blueviolet;
+    }
+    
+    }
